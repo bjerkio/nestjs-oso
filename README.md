@@ -16,7 +16,7 @@
 > into it.
 
 `nestjs-oso` is a library that simplifies the implementation of [oso][] with
-[NestJS][nestjs].
+[NestJS][nest].
 
 ## Features
 
