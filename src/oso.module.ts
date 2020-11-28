@@ -11,6 +11,7 @@ export interface OsoModuleConfig {
 
 @Module({
   providers: [OsoService],
+  exports: [OsoService],
 })
 export class OsoModule {
   constructor(private readonly oso: OsoService) {}
