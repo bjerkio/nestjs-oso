@@ -11,7 +11,7 @@ export class OsoService extends Oso implements OnModuleInit {
   ) {
     super(options.osoOptions);
   }
-  async onModuleInit() {
+  async onModuleInit(): Promise<void> {
     const providers = OsoMetadataStorage.getClasses();
 
     providers.forEach(m => {
