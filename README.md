@@ -3,7 +3,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
-![Build & Deploy](https://github.com/bjerkio/nestjs-oso/workflows/Build%20&%20Deploy/badge.svg)
+![Release](https://github.com/bjerkio/nestjs-oso/workflows/Release/badge.svg)
 
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/bjerkio/nestjs-oso.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bjerkio/nestjs-oso/context:javascript)
 [![codecov](https://codecov.io/gh/bjerkio/nestjs-oso/branch/master/graph/badge.svg)](https://codecov.io/gh/bjerkio/nestjs-oso)
