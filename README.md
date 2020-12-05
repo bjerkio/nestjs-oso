@@ -6,7 +6,7 @@
 ![Release](https://github.com/bjerkio/nestjs-oso/workflows/Release/badge.svg)
 
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/bjerkio/nestjs-oso.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bjerkio/nestjs-oso/context:javascript)
-[![codecov](https://codecov.io/gh/bjerkio/nestjs-oso/branch/master/graph/badge.svg)](https://codecov.io/gh/bjerkio/nestjs-oso)
+[![codecov](https://codecov.io/gh/bjerkio/nestjs-oso/branch/main/graph/badge.svg)](https://codecov.io/gh/bjerkio/nestjs-oso)
 [![Maintainability](https://api.codeclimate.com/v1/badges/85ecf3895e428d2c3064/maintainability)](https://codeclimate.com/github/bjerkio/nestjs-oso/maintainability)
 
 > [oso][] is an open-source policy engine for authorization that’s embedded in
