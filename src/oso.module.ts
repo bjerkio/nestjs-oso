@@ -7,6 +7,7 @@ export interface OsoModuleConfig {
   loadStr?: string;
   loadFile?: string;
   osoOptions?: Options;
+  isGlobal?: boolean; // If true, registers `OsoModule` as a global module.
 }
 
 @Module({
@@ -18,6 +19,7 @@ export class OsoModule {
 
   static forRoot(options: OsoModuleConfig = {}): DynamicModule {
     return {
+      global: options.isGlobal,
       module: OsoModule,
       providers: [
         {
