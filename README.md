@@ -37,6 +37,9 @@ import { OsoModule } from 'nestjs-oso';
   imports: [
     OsoModule.forRoot({
       loadFile: './permissions.polar',
+      // or
+      // loadFile: './**/*.polar',
+      // loadFiles: ['./rules/*.polar', './permissions.polar'],
     }),
   ],
 })
