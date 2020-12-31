@@ -31,22 +31,64 @@ describe('OsoService', () => {
   it('should register TestClass', () => {
     const classes = OsoMetadataStorage.getClasses();
     expect(classes).toContain(TestClass);
-  })
+  });
 
-  it('should load files', async () => {
+  it('should load a file', async () => {
     const mod = await Test.createTestingModule({
-      imports: [OsoModule.forRoot({
-        loadFile: './dummy-file.polar',
-      })],
+      imports: [
+        OsoModule.forRoot({
+          loadFile: `${__dirname}/rule1.polar`,
+        }),
+      ],
     }).compile();
 
     const loadFileApp = mod.createNestApplication();
     const service = loadFileApp.get<OsoService>(OsoService);
-    const func = jest.spyOn(service, 'loadFile').mockImplementation(async () => {});
+    const func = jest
+      .spyOn(service, 'loadFile')
+      .mockImplementation(async () => {});
     await loadFileApp.init();
 
-    expect(func).toBeCalled();
-  })
+    expect(func).toBeCalledTimes(1);
+  });
+
+  it('should load a files', async () => {
+    const mod = await Test.createTestingModule({
+      imports: [
+        OsoModule.forRoot({
+          loadFiles: [`${__dirname}/rule1.polar`, `${__dirname}/rule2.polar`],
+        }),
+      ],
+    }).compile();
+
+    const loadFileApp = mod.createNestApplication();
+    const service = loadFileApp.get<OsoService>(OsoService);
+    const func = jest
+      .spyOn(service, 'loadFile')
+      .mockImplementation(async () => {});
+    await loadFileApp.init();
+
+    expect(func).toBeCalledTimes(2);
+  });
+
+  it('should load files using regex', async () => {
+    const mod = await Test.createTestingModule({
+      imports: [
+        OsoModule.forRoot({
+          loadFile: './**/*.polar',
+        }),
+      ],
+    }).compile();
+
+    const loadFileApp = mod.createNestApplication();
+    const service = loadFileApp.get<OsoService>(OsoService);
+    const func = jest
+      .spyOn(service, 'loadFile')
+      .mockImplementation(async () => {});
+    await loadFileApp.init();
+
+    expect(func).toBeCalledTimes(2);
+  });
 
   it('should load strings', async () => {
     const mod = await Test.createTestingModule({
