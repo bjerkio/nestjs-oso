@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/bjerkio/nestjs-oso/compare/v1.1.0...v1.2.0) (2020-12-31)
+
+
+### Features
+
+* Support multiple polar files ([#41](https://github.com/bjerkio/nestjs-oso/issues/41)) ([e86fc2e](https://github.com/bjerkio/nestjs-oso/commit/e86fc2e9fb66914ebe70213e7bd09c8c0ea2f529))
+
 # [1.1.0](https://github.com/bjerkio/nestjs-oso/compare/v1.0.1...v1.1.0) (2020-12-18)
 
 

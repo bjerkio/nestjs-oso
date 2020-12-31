@@ -1,6 +1,6 @@
 {
   "name": "nestjs-oso",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Use OSO with NestJS",
   "main": "dist/plugin.js",
   "repository": {
