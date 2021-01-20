@@ -3845,10 +3845,10 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-oso@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.9.0.tgz#d44ae2433c5397acb16b812b35cb47b3fadf7119"
-  integrity sha512-aMKwT4ulniZ5kZVXRwJgP61YEOdYXgnpCIUD/64nb/aiaHfs5H1u94OQ2P8HJMkwRjljGTpmmfMcZmoWjTI6pQ==
+oso@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.10.0.tgz#cfd6476457b3baeae3b6969de148e6d6312b923f"
+  integrity sha512-Pgq3r9APYuE+xemEZEFieUmnqIyuOpKSpJPWmIkJNhzYxW+vcHXJW1nCoq+MRciPIr0mYzCodZaLmxVEMLZiWw==
 
 p-each-series@^2.1.0:
   version "2.2.0"
