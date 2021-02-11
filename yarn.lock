@@ -3840,9 +3840,9 @@ optionator@^0.9.1:
     word-wrap "^1.2.3"
 
 oso@^0.10.0:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.10.1.tgz#59d14963ffb05e89e311e66abccf1a3c33ac71a7"
-  integrity sha512-6kStIDbQdR+YjZL0uoTC9Z+LwIRveVftx9sPVLZdNQ5GnR8rZAummGmXGQ6vIWrZMkzutxbIVEkSUdbchQUxAA==
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.10.2.tgz#b0b6437b865392e50f4b5a95e50b4d107415d498"
+  integrity sha512-MIJiOQB4brXbg57K10s5c/dk8vmFmMVrofuRo999EjoFRMACmgvinC1G+QeIdDMFKyF92yy42B3Fb3KLJ8MjPA==
 
 p-each-series@^2.1.0:
   version "2.2.0"
