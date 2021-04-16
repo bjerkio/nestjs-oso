@@ -1,4 +1,4 @@
-# oso – Authorization code for NestJS
+# NestJS OSO – Authorization code for NestJS
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
@@ -20,8 +20,8 @@
 
 ## Features
 
-- @OsoClass decorator (automatically registers the class to use within Oso)
-- OsoService (a ready to use NestJS service)
+- **@OsoClass** decorator (automatically registers the class to use within Oso)
+- **OsoService** (a ready to use NestJS service)
 
 ## Quickstart
 
@@ -79,6 +79,25 @@ export class User {
 ```
 
 This will automatically be registered using `registerClass` function in `oso`.
+
+### Add Polar files to `assets` in `nest-cli.json`
+
+In the `nest-cli.json` file, we add the `assets` property to distribute non-Typescript
+files and watchAssets to turn on watching all non-Typescript-assets. In our case, we
+probably want to add `*.polar` files to be automatically copied to the `dist` folder
+and reloaded when changed.
+
+You can find an example in [osohq/oso-nest-doc-mgmt](https://github.com/osohq/oso-nest-doc-mgmt/blob/main/nest-cli.json).
+
+```json
+{
+  "compilerOptions": {
+    "assets": ["**/*.polar"],
+    "watchAssets": true
+  }
+}
+
+```
 
 ## Contribute & Disclaimer
 
