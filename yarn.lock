@@ -3799,10 +3799,10 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-oso@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.12.1.tgz#33056474f8272fe30864036b9d19112c93524885"
-  integrity sha512-LDOF2cbeYBc3l/ElrLyUed5B/e4pAbQsB6vxaDktzc+vRjII6x0Ok4fdzHzRfcP2s5aNCmllsuwSNIQyUv8pVQ==
+oso@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.13.0.tgz#72ba34dc8058d09b3ecf76c28532238093fc96d2"
+  integrity sha512-c1sRyAy2FTN8p2nzpUDWe1bXPMHSSaibLznbn8JWz+EXc/bcrjoBYSTPODsCt9IJSiIrHI24KteLfQEDIqcW6Q==
 
 p-each-series@^2.1.0:
   version "2.2.0"
