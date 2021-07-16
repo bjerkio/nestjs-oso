@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.2.3](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.2...v1.2.3) (2021-07-16)
+
+
+### Bug Fixes
+
+* Add tslib ([a7046a9](https://www.github.com/bjerkio/nestjs-oso/commit/a7046a98c0b316d89ac13e5b605de5c55f8511bc))
+* require oso >0.13 ([7ae37c1](https://www.github.com/bjerkio/nestjs-oso/commit/7ae37c102d215c38f9cbda679ad2b3fa323bab8b))
+
 ### [1.2.2](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.1...v1.2.2) (2021-07-16)
 
 
