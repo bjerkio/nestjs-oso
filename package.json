@@ -25,11 +25,11 @@
     "@typescript-eslint/parser": "4.23.0",
     "eslint": "7.26.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.23.4",
     "husky": "6",
     "jest": "26.6.3",
     "lint-staged": "11.0.0",
-    "oso": "^0.13.1",
+    "oso": "^0.14.0",
     "prettier": "2.3.0",
     "reflect-metadata": "0.1.13",
     "ts-jest": "^26.4.4",
@@ -45,5 +45,8 @@
     "@nestjs/core": ">=7",
     "fast-glob": ">=3",
     "oso": ">=0.13.1"
+  },
+  "peerDependenciesMeta": {
+    "fast-glob": { "optional": true }
   }
 }
