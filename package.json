@@ -41,10 +41,9 @@
     ]
   },
   "peerDependencies": {
-    "@nestjs/common": "^7.0.0",
-    "@nestjs/core": "^7.0.0",
-    "fast-glob": "^3.2.4",
-    "oso": "^0.13.1",
-    "reflect-metadata": "^0.1.12"
+    "@nestjs/common": ">=7",
+    "@nestjs/core": ">=7",
+    "fast-glob": ">=3",
+    "oso": ">=0.13.1"
   }
 }
