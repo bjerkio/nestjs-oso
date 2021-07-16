@@ -45,5 +45,8 @@
     "@nestjs/core": ">=7",
     "fast-glob": ">=3",
     "oso": ">=0.13.1"
+  },
+  "peerDependenciesMeta": {
+    "fast-glob": { "optional": true }
   }
 }
