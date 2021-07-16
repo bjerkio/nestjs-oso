@@ -47,6 +47,11 @@
     "oso": ">=0.10.1"
   },
   "peerDependenciesMeta": {
-    "fast-glob": { "optional": true }
+    "fast-glob": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }
