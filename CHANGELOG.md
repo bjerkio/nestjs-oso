@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.2.2](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.1...v1.2.2) (2021-07-16)
+
+
+### Bug Fixes
+
+* change peerDependencies ranges ([807e761](https://www.github.com/bjerkio/nestjs-oso/commit/807e761e8dff947dc3a2fb2ee2cdd5955ba3c599))
+
 ## [1.2.1](https://github.com/bjerkio/nestjs-oso/compare/v1.2.0...v1.2.1) (2021-02-03)
 
 
