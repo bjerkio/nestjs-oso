@@ -3952,10 +3952,10 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-oso@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.13.1.tgz#56e63deaed5c2f63d38c3d33d3356f98a51df068"
-  integrity sha512-j0MGWRj4eVrgiksipJq2tCdRK7dJHrARjfOSNEC5AgJmqCFyRKm8CFHvhBH73EKvAgeEmPjMG50kpmHxslysFw==
+oso@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.14.0.tgz#6a033717193ee55be5936b049b685db6ebe3da5c"
+  integrity sha512-DWFm+vYYHepigiK2zMb9sP5lg/L1J9ShNQygtdUnUbBKacojYaXArjGlf2zyXvFJcy2FZX3q5iOGPREt+z7r2Q==
 
 p-each-series@^2.1.0:
   version "2.2.0"
