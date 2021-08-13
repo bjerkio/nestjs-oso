@@ -3964,9 +3964,9 @@ optionator@^0.9.1:
     word-wrap "^1.2.3"
 
 oso@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.14.0.tgz#6a033717193ee55be5936b049b685db6ebe3da5c"
-  integrity sha512-DWFm+vYYHepigiK2zMb9sP5lg/L1J9ShNQygtdUnUbBKacojYaXArjGlf2zyXvFJcy2FZX3q5iOGPREt+z7r2Q==
+  version "0.14.2"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.14.2.tgz#d98ce70ac79f7dc89df92dcf99ce3226d3c5c30c"
+  integrity sha512-WpQM4zmMScAHjuqViLUDKuJxnSmJCJtCaGXab6AYk9aG1aaNNGb5yqyAqXdrOSqo8rYiptASAoYG7OE7e+SsAg==
 
 p-each-series@^2.1.0:
   version "2.2.0"
