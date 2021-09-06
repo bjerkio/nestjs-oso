@@ -3963,10 +3963,10 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-oso@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.14.0.tgz#6a033717193ee55be5936b049b685db6ebe3da5c"
-  integrity sha512-DWFm+vYYHepigiK2zMb9sP5lg/L1J9ShNQygtdUnUbBKacojYaXArjGlf2zyXvFJcy2FZX3q5iOGPREt+z7r2Q==
+oso@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.15.1.tgz#a3f36c6fe2546251af95f68fb6d8f91361cde653"
+  integrity sha512-5MMShwFzxhD8xIh8+IzqGm9c3f8xlmRGdxFjzuLlmrRozRxEexQhVQOYKTIfrFnklQBzjEU2RpAciVRud53qyA==
 
 p-each-series@^2.1.0:
   version "2.2.0"
