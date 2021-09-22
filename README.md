@@ -36,17 +36,18 @@ import { OsoModule } from 'nestjs-oso';
 @Module({
   imports: [
     OsoModule.forRoot({
-      loadFile: './permissions.polar',
-      // or
-      // loadFile: './**/*.polar',
-      // loadFiles: ['./rules/*.polar', './permissions.polar'],
+      loadFiles: ['./permissions.polar'],
+      // or multiple files
+      // loadFiles: ['./permissions.polar', './other-policies.polar'],
+      // or using wildcards
+      // loadFiles: ['./**/*.polar']
     }),
   ],
 })
 export class AppModule {}
 ```
 
-**Tip:** You don't have to apply either `loadFile` or `loadStr`. You can inject
+**Tip:** You don't have to apply either `loadFiles` or `loadStr`. You can inject
 `OsoService` and access the original API for oso anytime!
 
 ### Example
