@@ -5,7 +5,10 @@ import { OsoService } from './oso.service';
 
 export interface OsoModuleConfig {
   loadStr?: string;
-  loadFile?: string; // Deprecated; to be removed in next major version
+  /**
+  * @deprecated This argument will be removed in next major version
+  */
+  loadFile?: string;
   loadFiles?: string[];
   osoOptions?: Options;
   isGlobal?: boolean; // If true, registers `OsoModule` as a global module.
