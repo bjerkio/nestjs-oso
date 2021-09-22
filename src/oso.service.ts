@@ -20,11 +20,11 @@ export class OsoService extends Oso implements OnModuleInit {
     });
 
     if (this.options.loadFile) {
-      await this.loadFiles([this.options.loadFile]);
+      await this._loadFiles([this.options.loadFile]);
     }
 
     if (this.options.loadFiles) {
-      await this.loadFiles(this.options.loadFiles);
+      await this._loadFiles(this.options.loadFiles);
     }
 
     if (this.options.loadStr) {
@@ -32,12 +32,8 @@ export class OsoService extends Oso implements OnModuleInit {
     }
   }
 
-  private async loadFiles(patterns: string[]): Promise<void> {
+  private async _loadFiles(patterns: string[]): Promise<void> {
     const files = await FastGlob(patterns);
-    await Promise.all(
-      files.map(async (file: string) => {
-        await this.loadFile(file);
-      }),
-    );
+    await this.loadFiles(files);
   }
 }

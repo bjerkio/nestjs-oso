@@ -33,7 +33,7 @@ describe('OsoService', () => {
     expect(classes).toContain(TestClass);
   });
 
-  it('should load a file', async () => {
+  it('should load a file (deprecated)', async () => {
     const mod = await Test.createTestingModule({
       imports: [
         OsoModule.forRoot({
@@ -45,14 +45,33 @@ describe('OsoService', () => {
     const loadFileApp = mod.createNestApplication();
     const service = loadFileApp.get<OsoService>(OsoService);
     const func = jest
-      .spyOn(service, 'loadFile')
+      .spyOn(service, 'loadFiles')
       .mockImplementation(async () => {});
     await loadFileApp.init();
 
     expect(func).toBeCalledTimes(1);
   });
 
-  it('should load a files', async () => {
+  it('should load a file', async () => {
+    const mod = await Test.createTestingModule({
+      imports: [
+        OsoModule.forRoot({
+          loadFiles: [`${__dirname}/rule1.polar`],
+        }),
+      ],
+    }).compile();
+
+    const loadFileApp = mod.createNestApplication();
+    const service = loadFileApp.get<OsoService>(OsoService);
+    const func = jest
+      .spyOn(service, 'loadFiles')
+      .mockImplementation(async () => {});
+    await loadFileApp.init();
+
+    expect(func).toBeCalledTimes(1);
+  });
+
+  it('should load files', async () => {
     const mod = await Test.createTestingModule({
       imports: [
         OsoModule.forRoot({
@@ -64,14 +83,14 @@ describe('OsoService', () => {
     const loadFileApp = mod.createNestApplication();
     const service = loadFileApp.get<OsoService>(OsoService);
     const func = jest
-      .spyOn(service, 'loadFile')
+      .spyOn(service, 'loadFiles')
       .mockImplementation(async () => {});
     await loadFileApp.init();
 
-    expect(func).toBeCalledTimes(2);
+    expect(func).toBeCalledTimes(1);
   });
 
-  it('should load files using regex', async () => {
+  it('should load a file using regex (deprecated)', async () => {
     const mod = await Test.createTestingModule({
       imports: [
         OsoModule.forRoot({
@@ -83,11 +102,30 @@ describe('OsoService', () => {
     const loadFileApp = mod.createNestApplication();
     const service = loadFileApp.get<OsoService>(OsoService);
     const func = jest
-      .spyOn(service, 'loadFile')
+      .spyOn(service, 'loadFiles')
       .mockImplementation(async () => {});
     await loadFileApp.init();
 
-    expect(func).toBeCalledTimes(2);
+    expect(func).toBeCalledTimes(1);
+  });
+
+  it('should load files using regex', async () => {
+    const mod = await Test.createTestingModule({
+      imports: [
+        OsoModule.forRoot({
+          loadFiles: ['./**/*.polar'],
+        }),
+      ],
+    }).compile();
+
+    const loadFileApp = mod.createNestApplication();
+    const service = loadFileApp.get<OsoService>(OsoService);
+    const func = jest
+      .spyOn(service, 'loadFiles')
+      .mockImplementation(async () => {});
+    await loadFileApp.init();
+
+    expect(func).toBeCalledTimes(1);
   });
 
   it('should load strings', async () => {
