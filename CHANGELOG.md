@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.5...v1.3.0) (2021-09-22)
+
+
+### Features
+
+* update policy loading to reflect Oso 0.20.1 changes ([#259](https://www.github.com/bjerkio/nestjs-oso/issues/259)) ([a45084c](https://www.github.com/bjerkio/nestjs-oso/commit/a45084cf5107320657a4975147fc5e64a396636d))
+
 ### [1.2.5](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.4...v1.2.5) (2021-07-17)
 
 
