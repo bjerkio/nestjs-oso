@@ -41,7 +41,7 @@
     "oso": "^0.20.1",
     "prettier": "2.4.1",
     "ts-jest": "^27.0.5",
-    "typescript": "4.4.3"
+    "typescript": "4.9.5"
   },
   "peerDependencies": {
     "@nestjs/common": ">=7 <=9",
