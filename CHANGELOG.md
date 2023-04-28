@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/bjerkio/nestjs-oso/compare/v1.3.0...v1.3.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* use dependency ranges ([c898996](https://github.com/bjerkio/nestjs-oso/commit/c898996c2915ae8c301c346a7c2dfe96673b1a46))
+
 ## [1.3.0](https://www.github.com/bjerkio/nestjs-oso/compare/v1.2.5...v1.3.0) (2021-09-22)
 
 
