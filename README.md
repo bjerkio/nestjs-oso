@@ -79,7 +79,7 @@ export class User {
 }
 ```
 
-This will automatically be registered using `registerClass` function in `oso`!
+This will automatically be registered using `registerClass` function in `oso`.
 
 ### Add Polar files to `assets` in `nest-cli.json`
 
