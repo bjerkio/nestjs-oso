@@ -28,5 +28,5 @@ describe('OsoModule', () => {
   it('should return a dynamic module', () => {
     const dynamicMod = OsoModule.forRoot();
     expect(dynamicMod.module).toBeInstanceOf(Function);
-  })
+  });
 });

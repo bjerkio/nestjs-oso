@@ -6,8 +6,8 @@ import { OsoService } from './oso.service';
 export interface OsoModuleConfig {
   loadStr?: string;
   /**
-  * @deprecated This argument will be removed in next major version
-  */
+   * @deprecated This argument will be removed in next major version
+   */
   loadFile?: string;
   loadFiles?: string[];
   osoOptions?: Options;
