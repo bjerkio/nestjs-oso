@@ -84,7 +84,7 @@ This will automatically be registered using `registerClass` function in `oso`.
 ### Add Polar files to `assets` in `nest-cli.json`
 
 In the `nest-cli.json` file, we add the `assets` property to distribute non-Typescript
-files and watchAssets to turn on watching all non-Typescript-assets. In our case, we
+files and watchAssets to turn on watching all non-Typescript assets. In our case, we
 probably want to add `*.polar` files to be automatically copied to the `dist` folder
 and reloaded when changed.
 
