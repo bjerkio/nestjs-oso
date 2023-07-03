@@ -10,6 +10,13 @@ All notable changes to this project will be documented in this file. See
 
 * **deps:** update nest monorepo to v10.0.5 ([#459](https://github.com/bjerkio/nestjs-oso/issues/459)) ([b4552b9](https://github.com/bjerkio/nestjs-oso/commit/b4552b9ee467f08677e0c87bfd50106a59a02a6b))
 
+## [1.4.0](https://github.com/bjerkio/nestjs-oso/compare/v1.3.1...v1.4.0) (2023-07-03)
+
+
+### Features
+
+* **deps:** update nest monorepo to v10.0.5 ([#459](https://github.com/bjerkio/nestjs-oso/issues/459)) ([b4552b9](https://github.com/bjerkio/nestjs-oso/commit/b4552b9ee467f08677e0c87bfd50106a59a02a6b))
+
 ## [1.3.1](https://github.com/bjerkio/nestjs-oso/compare/v1.3.0...v1.3.1) (2023-04-28)
 
 
