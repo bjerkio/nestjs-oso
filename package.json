@@ -46,8 +46,8 @@
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
-    "@nestjs/common": "^7 || ^8 || ^9 || ^10.0.0",
-    "@nestjs/core": "^7 || ^8 || ^9 || ^10.0.0",
+    "@nestjs/common": "^7 || ^8 || ^9 || ^10",
+    "@nestjs/core": "^7 || ^8 || ^9 || ^10",
     "fast-glob": "^3",
     "oso": ">=0.20.1"
   },
