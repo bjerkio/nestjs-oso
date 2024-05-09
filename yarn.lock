@@ -3311,9 +3311,9 @@ optionator@^0.9.3:
     type-check "^0.4.0"
 
 oso@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.27.0.tgz#b3a5093ccf3fad2258a554ae144ac6c965fa5cdd"
-  integrity sha512-vGrkKjnyqnHLgU9INYg35paU+gfKWo1l0upISIMWhg1g26nGDVjM6x2CQ/0ZeMpyi+wlmyj5rFQIpO0ziXmDGw==
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/oso/-/oso-0.27.3.tgz#8947b4b35745fa357b45e19ce9f54baeeac89fa7"
+  integrity sha512-I7vAe8USQvAzYOfT9RlESDiVGMRuo1QqsIO7jycunJKcaR0o7cls23lqem5gxTQ+HOABJz4mbFV5SLBS2L0GLA==
   dependencies:
     lodash.isequal "^4.5.0"
 
